@@ -15,8 +15,7 @@ public class LoginStepDefinition {
     public WebDriver driver;
     @Given("Navigate to Login Page")
     public void navigate_to_login_page() {
-        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
+        
         System.setProperty("webdriver.chrome.driver","C:\\Users\\saina\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.get("https://qamoviesapp.ccbp.tech");
